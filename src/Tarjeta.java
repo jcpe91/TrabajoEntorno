@@ -1,9 +1,9 @@
-public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito{
+public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 	private String id;
 	private String dniTitular;
 	private int pin;
 	private float saldo;
-	
+
 	public Tarjeta(String id, String dniTitular, int pin, float saldo) {
 		setId(id);
 		setDniTitular(dniTitular);
@@ -21,4 +21,19 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito{
 		this.dniTitular = dniTitular;
 
 	}
+
+	public void setId(String id) {
+		this.id = id;
+
+	}
+
+	private boolean cargo(float importe) {
+		boolean resultado = false;
+		if (importe > 0) {
+			resultado = true;
+		}
+		return resultado;
+	}
+
+
 }
