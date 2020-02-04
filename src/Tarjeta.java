@@ -28,4 +28,24 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 		}
 		return resultado;
 	}
+	@Override
+	public void retirarCajero(float importe, int pin) {
+		if(this.pin==pin && importe >0) {
+		setSaldo(getSaldo()-importe);
+		}
+
+	}
+
+	@Override
+	public void comprar(float importe, String dni) {
+		if(this.dniTitular==dni && importe>0) {
+			setSaldo(getSaldo()-importe);
+			}
+
+	}
+
+	@Override
+	public String getId() {
+		return id;
+	}
 }
