@@ -16,4 +16,16 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 		this.saldo = saldo;
 
 	}
+	public void setId(String id) {
+		this.id = id;
+
+	}
+
+	private boolean cargo(float importe) {
+		boolean resultado = false;
+		if(importe>0) {
+			resultado=true;
+		}
+		return resultado;
+	}
 }
