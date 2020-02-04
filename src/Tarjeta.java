@@ -34,6 +34,7 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 		}
 		return resultado;
 	}
+
 	@Override
 	public void retirarCajero(float importe, int pin) {
 		if (this.pin == pin && importe > 0) {
@@ -48,6 +49,7 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 
 		}
 	}
+
 	@Override
 	public String getDniTitular() {
 		return dniTitular;
@@ -58,6 +60,9 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 		return (int) saldo;
 	}
 
-
+	@Override
+	public void setPin(int num) {
+		this.pin = num;
+	}
 
 }
