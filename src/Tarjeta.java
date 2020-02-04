@@ -48,5 +48,16 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 
 		}
 	}
+	@Override
+	public String getDniTitular() {
+		return dniTitular;
+	}
+
+	@Override
+	public int getSaldo() {
+		return (int) saldo;
+	}
+
+
 
 }
