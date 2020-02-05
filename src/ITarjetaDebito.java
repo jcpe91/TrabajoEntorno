@@ -1,6 +1,6 @@
 
 public interface ITarjetaDebito {
-	public void comprar(float importe, String dni);
+	public void comprar(float importe, int pin);
 
 	public void retirarCajero(float importe, int pin);
 	
