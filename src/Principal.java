@@ -7,5 +7,10 @@ public class Principal {
 		// vamos al foster, nos cuesta 100€
 		System.out.println("Pagando con tarjeta...");
 		tarjeta.comprar(100, "29556545T");
+		
+		System.out.println("Importe Foster Hollywood 100€...");
+		System.out.println("");
+		System.out.println("El saldo actual del monedero es: " + monedero.getSaldo());
+		System.out.println("Pagando con monedero...");
 	}
 }
