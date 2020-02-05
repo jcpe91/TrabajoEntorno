@@ -52,6 +52,9 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 	public String getDniTitular() {
 		return dniTitular;
 	}
+	public void setDniTitular(String dniTitular) {
+		this.dniTitular=dniTitular;
+	}
 	@Override
 	public int getSaldo() {
 		return (int) saldo;
