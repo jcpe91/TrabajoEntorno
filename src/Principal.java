@@ -11,6 +11,6 @@ public class Principal {
 		System.out.println("Importe Foster Hollywood 100€...");
 		System.out.println("");
 		System.out.println("El saldo actual del monedero es: " + monedero.getSaldo());
-		System.out.println("Pagando con monedero...");
+		System.out.println("Pagando con monedero..."); 
 	}
 }
