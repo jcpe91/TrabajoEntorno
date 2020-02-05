@@ -6,6 +6,6 @@ public class Principal {
 
 		// vamos al foster, nos cuesta 100€
 		System.out.println("Pagando con tarjeta...");
-
+		tarjeta.comprar(100, "29556545T");
 	}
 }
