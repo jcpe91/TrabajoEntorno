@@ -37,7 +37,13 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 		}
 	}
 	
-
+	@Override
+	public void comprarMonedero(float importe, String sDni) {
+		if (this.dniTitular == sDni && importe > 0) {
+			setSaldo(getSaldo() - importe);
+		}
+	}
+	
 	@Override
 	public String getId() {
 		return id;

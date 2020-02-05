@@ -17,7 +17,7 @@ public class Principal {
 		System.out.println("Mostrando el DNI del titular...");
 		System.out.println("El dni del titular del monedero es: " + monedero.getDniTitular());
 		System.out.println("Importe compra 50€..."+"\n");
-//		monedero.comprarMonedero(50, "29553065C");
+		monedero.comprarMonedero(50, "29553065C");
 		System.out.println("El saldo actual del monedero es: " + monedero.getSaldo());
 	}
 }

@@ -1,6 +1,6 @@
 
 public interface ITarjetaMonedero {
-
+	public void comprarMonedero(float importe, String dni);
 
 	public String getId();
 
