@@ -6,10 +6,10 @@ Nuestro proyecto consta de la creación de una pequeña aplicación, en la que s
 de **débito**, **crédito** o **monedero**. Demostraremos su comportamiento, con la funcionalidad del código del **main o principal**, como descrece la cantidad de supuesto dinero del cliente, etc.
 
 ## SOFTWARE 🛠️
-**Eclipse Jee**
-<p>Para programar y subir el código a GitHub.</p>
+[**Eclipse Jee**](https://discordapp.com/)
+<p>Para programar y subir el código a GitHub gracias a sus plugin incorporados.</p>
 
-**Discord**
+[**Discord**](https://www.eclipse.org/)
 <p>Para las comunicaciones entre nosostros, ya fuese por chat, chat-voz , screenshot-share y streamming.</p>
 
 ## AUTORES ✒️
@@ -17,3 +17,6 @@ de **débito**, **crédito** o **monedero**. Demostraremos su comportamiento, co
 * [Jose Carlos Perejón Escobar.](https://github.com/jcpe91)
 * [Rubén Oliva Jurado.](https://github.com/ruben1399)
 * [Jesús Miguel García Durán.](https://github.com/jesusmiguelgarciaduran)
+
+## PROFESOR 📖
+* [Miguel Ángel Cifredo Campos](https://github.com/MiguelAngelCifredo)
